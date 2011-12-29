@@ -27,16 +27,8 @@ ltxkeys package, which was assumed to be a replacement for
 keyreader. Since the package has remained a favourite with
 users, it has been reinstated.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -50,7 +42,6 @@ users, it has been reinstated.
 %doc %{_texmfdistdir}/doc/latex/keyreader/README
 %doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.pdf
 %doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,5 +52,3 @@ users, it has been reinstated.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
