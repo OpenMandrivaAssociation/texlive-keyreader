@@ -1,11 +1,11 @@
-# revision 24912
+# revision 24936
 # category Package
 # catalog-ctan /macros/latex/contrib/keyreader
-# catalog-date 2011-12-22 12:42:22 +0100
+# catalog-date 2011-12-24 13:09:03 +0100
 # catalog-license lppl1.3
-# catalog-version 0.4
+# catalog-version 0.4a
 Name:		texlive-keyreader
-Version:	0.4
+Version:	0.4a
 Release:	1
 Summary:	A robust interface to xkeyval
 Group:		Publishing
@@ -20,11 +20,10 @@ Requires(post):	texlive-kpathsea
 
 %description
 The package provides a robust interface to controlling keys in
-xkeyval, removing some of that package's restrictions and
-adding the concept of complementary boolean keys. The package
-addresses some of the issues now covered by the author's
-ltxkeys package, which was assumed to be a replacement for
-keyreader. Since the package has remained a favourite with
+xkeyval, removing some of that package's restrictions. The
+package also addresses some of the issues now covered by the
+author's ltxkeys package, which was assumed to be a replacement
+for keyreader. Since keyreader has remained a favourite with
 users, it has been reinstated.
 
 %post
@@ -37,7 +36,6 @@ users, it has been reinstated.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/keyreader/keyreader-guide.cfg
 %{_texmfdistdir}/tex/latex/keyreader/keyreader.sty
 %doc %{_texmfdistdir}/doc/latex/keyreader/README
 %doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.pdf
