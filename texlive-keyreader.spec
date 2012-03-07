@@ -1,4 +1,4 @@
-# revision 25155
+# revision 25563
 # category Package
 # catalog-ctan /macros/latex/contrib/keyreader
 # catalog-date 2012-01-19 11:04:21 +0100
