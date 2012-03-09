@@ -6,7 +6,7 @@
 # catalog-version 0.4b
 Name:		texlive-keyreader
 Version:	0.4b
-Release:	2
+Release:	3
 Summary:	A robust interface to xkeyval
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/keyreader
