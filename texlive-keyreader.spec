@@ -1,12 +1,12 @@
-# revision 25563
+# revision 28020
 # category Package
 # catalog-ctan /macros/latex/contrib/keyreader
-# catalog-date 2012-01-19 11:04:21 +0100
+# catalog-date 2012-10-11 15:17:14 +0200
 # catalog-license lppl1.3
-# catalog-version 0.4b
+# catalog-version 0.5
 Name:		texlive-keyreader
-Version:	0.4b
-Release:	3
+Version:	0.5
+Release:	1
 Summary:	A robust interface to xkeyval
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/keyreader
@@ -36,9 +36,10 @@ users, it has been reinstated.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/keyreader/keyreader-guide.cfg
 %{_texmfdistdir}/tex/latex/keyreader/keyreader.sty
 %doc %{_texmfdistdir}/doc/latex/keyreader/README
+%doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-example1.tex
+%doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.cfg
 %doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.pdf
 %doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.tex
 
