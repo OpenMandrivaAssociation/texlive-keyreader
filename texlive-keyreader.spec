@@ -1,12 +1,12 @@
-# revision 28020
+# revision 25563
 # category Package
 # catalog-ctan /macros/latex/contrib/keyreader
-# catalog-date 2012-10-11 15:17:14 +0200
+# catalog-date 2012-01-19 11:04:21 +0100
 # catalog-license lppl1.3
-# catalog-version 0.5
+# catalog-version 0.4b
 Name:		texlive-keyreader
-Version:	0.5
-Release:	1
+Version:	0.4b
+Release:	3
 Summary:	A robust interface to xkeyval
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/keyreader
@@ -36,10 +36,9 @@ users, it has been reinstated.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/keyreader/keyreader-guide.cfg
 %{_texmfdistdir}/tex/latex/keyreader/keyreader.sty
 %doc %{_texmfdistdir}/doc/latex/keyreader/README
-%doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-example1.tex
-%doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.cfg
 %doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.pdf
 %doc %{_texmfdistdir}/doc/latex/keyreader/keyreader-guide.tex
 
@@ -52,3 +51,28 @@ users, it has been reinstated.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.4b-3
++ Revision: 783481
+- rebuild without scriptlet dependencies
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4b-2
++ Revision: 783028
+- Update to latest release.
+- Update to latest release.
+
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4b-1
++ Revision: 770193
+- Update to latest upstream package
+
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4a-1
++ Revision: 758922
+- Update to latest upstream release
+
+* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.4-1
++ Revision: 745270
+- texlive-keyreader
+- texlive-keyreader
+
