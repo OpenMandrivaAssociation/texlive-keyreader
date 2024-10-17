@@ -3,7 +3,7 @@ Version:	28195
 Release:	2
 Summary:	A robust interface to xkeyval
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/keyreader
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/keyreader
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/keyreader.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/keyreader.doc.r%{version}.tar.xz
